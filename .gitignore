@@ -1,0 +1,27 @@
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.pdf
+*.toc
+*.synctex.gz
+
+# Editor backups
+*.bak*
+
+# Archives and bundles
+*.epub
+*.bundle
+
+# Generated output (built via `make`)
+out/
+
+# Local tooling state
+.omo/
+.worktrees/
+misc/
+
+# Copyright-sensitive source material (never commit)
+source-books/
+reference/
