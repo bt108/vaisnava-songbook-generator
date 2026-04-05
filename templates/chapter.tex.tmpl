@@ -1,0 +1,18 @@
+\chapter{ {{- .Title -}} }
+{{if .Intro}}
+\begin{chapterIntro}
+{{trim .Intro}}
+\end{chapterIntro}
+{{end}}
+\clearpage
+{{range .Prose}}
+{{trim .}}
+
+{{end}}
+{{range .Content}}
+\begin{song}{ {{- .Title -}} }
+{{range .Slokas}}
+{{template "sloka" .}}
+{{end}}
+\end{song}
+{{end}}

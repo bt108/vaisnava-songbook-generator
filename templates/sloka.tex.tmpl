@@ -1,0 +1,34 @@
+{{define "sloka"}}
+{{if .ShouldClearPage}}
+\clearpage
+{{end}}
+\begin{sloka}{ {{- if and (not .SongTitle) .NumberLabel}}{{.NumberLabel}}{{end -}} }
+{{if .SongTitle}}\songheader{ {{- .SongTitle -}}{{if eq .SongLanguage "bn"}}\bengalimark{{end -}} }{ {{- .AuthorLabel -}} }{{end}}
+
+\begin{sanskrit}
+{{range .Padas}}
+\begin{pada}
+{{$entries := .Entries}}
+{{range $i, $entry := $entries -}}
+{{if $entry.Break -}}
+\end{pada}
+\begin{pada}
+{{else -}}
+			\padaEntry{ {{- $entry.Word -}} }{ {{- $entry.Gloss -}} }{{glossGap $entries $i}}%
+{{end -}}
+{{end -}}
+\end{pada}
+{{end}}
+\end{sanskrit}
+
+{{if .Translation}}
+		\ftrans{
+{{trim .Translation}}
+		}
+{{else}}
+\begin{nscenter}
+\notransrule
+\end{nscenter}
+{{end}}
+\end{sloka}
+{{end}}

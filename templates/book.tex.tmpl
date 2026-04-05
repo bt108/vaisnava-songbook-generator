@@ -1,0 +1,104 @@
+% Book title command for running headers (hardcoded without quotes)
+\newcommand{\booktitle}{%
+  Prārthanā–Rasa–Dīpikā%
+}
+
+\documentclass[11pt]{book}
+
+\input{pre}
+\input{gloss}
+
+\begin{document}
+
+\frontmatter
+
+% Title page
+\thispagestyle{empty}
+\null\vspace{6\baselineskip}
+\begin{pada}
+{{range .Title.Parts -}}
+	\padaEntry{\Huge {{.Sanskrit}}}{\Large {{.English}}}%
+{{end -}}
+\end{pada}
+\begin{center}
+	{\emph{\LARGE {{.Title.Tagline}}}}
+\end{center}
+{{if .Title.Subtitle}}
+\vspace*{0pt plus 2fill}
+\begin{pada}
+{{range .Title.Subtitle.Parts -}}
+	\padaEntry{\huge {{.Sanskrit}}}{\Large {{.English}}}%
+{{end -}}
+\end{pada}
+\begin{center}
+	{\emph{\LARGE {{.Title.Subtitle.Tagline}}}}
+\end{center}
+\vspace*{0pt plus 1fill}
+{{end}}
+\vspace*{0pt plus 1fill}
+{\leftskip=2em\rightskip=2em\itshape
+``We are therefore taking so much trouble to get this transliteration, the meaning, so that the reader may take advanced step, full advantage of the mantra.''\par}
+\vspace{0.3ex}
+{\normalfont\raggedleft(Śrīla Prabhupāda, Śrīmad-Bhāgavatam 2.9.1, Tokyo, April 1972)\par}
+\vspace*{0pt plus 1fill}
+
+% Copyright page
+\clearpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+{{.Copyright}}
+\end{center}
+\vspace*{\fill}
+
+% Dedication page
+\clearpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+	\includegraphics[width=0.55\textwidth]{../data/img/sp-circle.png}\\[2em]
+	{\Large\bfseries DEDICATION}\\[2em]
+	{{.Dedication}}
+\end{center}
+\vspace*{\fill}
+
+\chapter{Introduction}
+
+\begin{chapterIntro}
+{{trim .Intro}}
+\end{chapterIntro}
+
+\clearpage
+
+\tableofcontents
+
+\mainmatter
+
+{{range .Chapters}}
+{{if .IsEnabled}}
+\include{chapters/{{.ID}}}
+{{end}}
+{{end}}
+
+{{if .EndnoteChapters}}
+\appendix
+\chapter*{End Notes}
+\addcontentsline{toc}{chapter}{End Notes}
+
+{{range .EndnoteChapters}}
+\section*{ {{- .Title -}} }
+
+{{range .Songs}}
+\subsection*{ {{- .Title -}} }
+
+{{range .Verses}}
+\noindent{\em v.{{- .Number}}}\par
+{{range .Endnotes}}
+\noindent\textsc{ {{- .Term -}} }\enspace{}\textemdash\enspace{}{{- .Note}}\par
+{{end}}
+{{end}}
+{{end}}
+{{end}}
+{{end}}
+
+\end{document}
