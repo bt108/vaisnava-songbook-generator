@@ -1,0 +1,135 @@
+% ============================
+% = Verse rendering commands =
+% ============================
+%
+% Structure: Song > Sloka > Sanskrit > Pada > PadaEntry
+%                         > Translation (ftrans)
+%                         > Footnotes
+
+\usepackage{glossy}
+
+\definecolor{glossgray}{HTML}{4D4D4D}
+\gsSetFirstStyle{\Large\bfseries}
+\gsSetSecondStyle{\color{glossgray}\itshape\normalsize}
+\newlength\gsFirstAscent
+\newlength\gsSecondAscent
+\AtBeginDocument{%
+	\settoheight\gsFirstAscent{\Large M}%
+	\setlength\gsFirstHeight{\gsFirstAscent}%
+	\settoheight\gsSecondAscent{\normalsize M}%
+	\setlength\gsSecondHeight{\gsSecondAscent}%
+}
+
+% -- Song: a named section (e.g. Gurvaṣṭakam) --
+%   Stores the song title for display; running headers use \leftmark
+%   (chapter title) and \booktitle (book title) instead.
+\newenvironment{song}[1]
+{\def\songtitle{#1}}
+{}
+
+% Defensive default so the sloka environment never hits an undefined
+% \songtitle if a sloka is ever typeset outside a song.
+\def\songtitle{}
+
+% -- Song rule: the chapter's swelled rule shrunk to a hairline, drawn
+%   in the gloss gray --
+\newcommand{\songrule}{%
+	\tikz \filldraw[scale=.015,thin,draw=glossgray,fill=glossgray]%
+	(0,0) -- (100,0.7) -- (200,0.7) -- (300,0) --%
+	(200,-0.7) -- (100,-0.7) -- cycle;%
+}
+
+% -- Bengali-song marker: a small gray superscript "B" appended to the
+%   title of songs whose text is in Bengali (language: bn in the verse
+%   YAML). Set in gloss gray to match the author line and running head.
+\newcommand{\bengalimark}{\textsuperscript{\textcolor{glossgray}{B}}}
+
+% -- No-translation rule: like \songrule but slightly narrower, marks a
+%   sloka rendered without a translation (e.g. gaura-arati refrains) --
+\newcommand{\notransrule}{%
+	\tikz \filldraw[scale=.015,thin,draw=glossgray,fill=glossgray]%
+	(0,0) -- (85,0.7) -- (170,0.7) -- (255,0) --%
+	(170,-0.7) -- (85,-0.7) -- cycle;%
+}
+
+% -- Song header: title, author, hairline rule --
+%   Emitted inside the first sloka's unbreakable box, so it can never be
+%   separated from the verse (the verse box supplies the leading space).
+%   Blank author suppresses the author line. \nointerlineskip on both sides
+%   of the rule (prevdepth = -1000pt) removes the ~1ex natural line gap, so
+%   exactly 1ex separates the rule from the text above and the verse
+%   below.
+\ExplSyntaxOn
+\newcommand{\songheader}[2]{%
+	{\centering\LARGE\bfseries #1\par}%
+	\tl_if_blank:nF {#2}
+	{%
+		\vspace{0.5ex}%
+		{\centering\Large\color{glossgray}#2\par}%
+	}%
+	\nointerlineskip
+	\vspace{1ex}%
+	{\centering\songrule\par}%
+	\nointerlineskip
+	\vspace{1ex}%
+}
+\ExplSyntaxOff
+
+% -- Sloka: a numbered verse, kept whole --
+%   The whole verse (number, sanskrit, translation) is set in an
+%   unbreakable box, so it can never split across a page. The blank
+%   argument → no header; any other → vertical skip + header.
+%
+%   Running headers use \leftmark (chapter title) and \booktitle
+%   (book title), so no song mark is needed here.
+\ExplSyntaxOn
+% The verse box is built in a register so its real size is known before it
+% is committed to the page.
+\newbox\songbookverse
+\newenvironment{sloka}[1]
+{
+	\par
+	\vspace{1ex} % space inbetween the verse boxes
+	\setbox\songbookverse=\vbox\bgroup
+	\vspace{1ex} % space inside the verse box
+	\tl_if_blank:oTF {#1}
+	{}
+	{
+		{\centering\Large(#1)\par}
+		\vspace{1ex}
+	}
+}
+{
+	\egroup
+	\box\songbookverse
+}
+\ExplSyntaxOff
+
+% -- Sanskrit: semantic wrapper (currently no-op) --
+\newenvironment{sanskrit}{}{}
+
+% -- Pada: a line of word-by-word glosses --
+\newenvironment{pada}%
+{\begin{glossy}\begin{nscenter}}%
+{\end{nscenter}\end{glossy}}%
+
+\newcommand{\padaEntry}[2]{\gloss{#1}{#2}}
+
+
+% -- Translation: full-width ragged-right text --
+\newcommand{\ftransstyle}{%
+	\raggedright
+	\hyphenpenalty=5000
+}
+\newcommand{\ftrans}[1]{%
+	\vspace{0.9ex}
+	{\ftransstyle\normalsize #1\par}
+}
+
+% -- Footnote: term + em-dash + note with a hanging indent so wrapped
+%   lines are indented and each note reads as one block --
+\newcommand{\footnoteEntry}[2]{%
+	\par\noindent
+	\hangindent=2em\hangafter=1
+	\textsc{#1}\enspace\textemdash\enspace#2\par
+}

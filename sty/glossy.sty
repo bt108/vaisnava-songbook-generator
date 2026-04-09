@@ -1,0 +1,28 @@
+%% Simplified from glossy.sty v0.4 (2019/03/29)
+%% Original: glossy.dtx by its author; trimmed to 2-row (word + gloss) layout.
+\NeedsTeXFormat{LaTeX2e}[2003/12/01]
+\ProvidesPackage{glossy}
+   [2019/03/29 v0.4 glossy package (modified)]
+\makeatletter
+\newcommand*{\gs@firstStyle}{}
+\newcommand*{\gs@secondStyle}{}
+\newcommand*{\gsSetFirstStyle}[1]{\renewcommand\gs@firstStyle{#1}}
+\newcommand*{\gsSetSecondStyle}[1]{\renewcommand\gs@secondStyle{#1}}
+\newlength\gsFirstHeight
+\newlength\gsSecondHeight
+\setlength\gsFirstHeight{10pt}
+\setlength\gsSecondHeight{10pt}
+\newenvironment{glossy}{%
+   \newcommand*{\gloss}[2]{%
+      \begin{tabular}{c}
+         {\gs@firstStyle{\rule{0pt}{\gsFirstHeight}##1}} \\%
+         {\gs@secondStyle{\rule{0pt}{\gsSecondHeight}##2}} \\%
+      \end{tabular}%
+   }
+   \setlength\tabcolsep{0pt}
+   \begin{sloppypar}
+}{%
+   \end{sloppypar}
+}
+\makeatother
+\endinput
