@@ -1,0 +1,48 @@
+title:
+  parts:
+    - sanskrit: Prārthanā–Rasa–Dīpikā
+      english: Prayer–Mellow–Lamp
+  tagline: '"Lamp of the Mellow of Prayer"'
+copyright: |
+  © 2026
+
+  Version 1.0
+
+  CC BY-NC-SA 4.0
+
+  Digital / Self Print Edition
+dedication: |
+  This book is humbly dedicated to His Divine Grace A.C. Bhaktivedanta Swami Prabhupāda,
+  Founder-Acharya of the International Society for Krishna Consciousness,
+  who mercifully brought these prayers to the Western world.
+intro: |
+  This book gathers the daily prayers of Vaiṣṇava practice -- the songs of the temple day, from the maṅgala-ārati at dawn to the gaura-ārati in the evening -- so that they may be sung with understanding as well as love. Every verse is set with its words explained one by one beneath the text, a flowing translation beneath that, and short notes at the end of each chapter on the words most worth savoring.
+
+  The title, \sa{Prārthanā-rasa-dīpikā}, ``the lamp of the mellow of prayer,'' is the book's hope: that these prayers may light the \sa{bhāva} (devotional mood) in the heart of the reader. This work began as a personal effort by the author to taste the daily prayers more deeply, and it is humbly hoped that it may be of some benefit to others. For the practical details -- how the book is arranged, how to read a verse, and how the transliteration and pronunciation work -- see the first chapter, ``How to Use This Book.''
+
+  \chapterquote{In the Nṛsiṁha Purāṇa it is stated, ``Any person who comes before the Deity of Lord Kṛṣṇa and begins to chant different prayers is immediately relieved from all the reactions of sinful activities and becomes eligible, without any doubt, to enter into the Vaikuṇṭha-loka.''}{(Nectar of Devotion, Chapter 9: Reciting Notable Prayers)}
+chapters:
+  - id: how-to-use-this-book
+    enabled: true
+  - id: invocation
+    enabled: true
+  - id: mangala-arati
+    enabled: true
+  - id: nrsimha
+    enabled: true
+  - id: tulasi
+    enabled: true
+  - id: japa
+    enabled: true
+  - id: darsana
+    enabled: true
+  - id: guru-puja
+    enabled: true
+  - id: pre-class
+    enabled: true
+  - id: prasada
+    enabled: true
+  - id: gaura-arati
+    enabled: true
+  - id: selected-prayers
+    enabled: true

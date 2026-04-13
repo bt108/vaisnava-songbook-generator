@@ -1,0 +1,129 @@
+title: How to Use This Book
+intro: |-
+  The songs in this book are meant to be sung with understanding. This chapter explains the few things worth knowing before you begin: how the book is arranged, how to read a verse, what a gloss can and cannot show, and the little bit of transliteration, pronunciation, and grammar used throughout. None of it is difficult -- it is simply the key to every page that follows.
+
+  \chapterquote{We are therefore taking so much trouble to get this transliteration, the meaning, so that the reader may take advanced step, full advantage of the mantra.}{(Śrīla Prabhupāda, Śrīmad-Bhāgavatam 2.9.1, Tokyo, April 1972)}
+content:
+  - prose: |-
+      \markright{How to Use This Book}
+
+      \section*{How the book is arranged}
+
+      The book follows the daily temple program. Each chapter gathers the prayers of one service of the day -- the Maṅgala-ārati, the prayers to Lord Nṛsiṁha-deva, the worship of Tulasī-devī, the prayers before japa, the Guru-pūjā, the prayers before class and at prasādam, and the Gaura-ārati -- and the book closes with a chapter of selected prayers.
+
+      Every verse is offered three layers of help. Beneath the Sanskrit text, a word-by-word gloss gives the meaning of each word as it is sung. A translation beneath the verse gives the flowing sense. And at the end of each chapter, a short \emph{Notes} section returns to the words most worth savoring, tracing each one to its root.
+  - prose: |-
+      \section*{How to read a verse}
+
+      Each song opens with its title and author. A small raised \emph{B} after the title marks a song in Bengali; songs without it are in Sanskrit. Beneath the heading, each line of the verse is set word by word: the Sanskrit word in bold, its meaning in gray italic directly beneath it. Where a word runs past the end of a line, the line is broken and a trailing hyphen marks the carry-over: \sa{karuṇā-} \emph{mercy-} tells you the word continues on the next line. The hyphen is a convention of the printing, not of the language.
+
+      Sanskrit and Bengali do not arrange words the way English does, so the glosses give the literal meaning of each word as it stands, while the translation beneath the verse gives the flowing sense. Where a line has no translation -- some refrains are simply repeated -- it is marked with a thin rule. And while you sing, the running title at the top of each page keeps you aware of which song you are in.
+  - prose: |-
+      \section*{The limits of the gloss}
+
+      The gloss is the meaning of each word, set directly beneath it so that it can be read while singing. It must fit the line, so it is kept very short -- a word or two at most. The little words of English -- \emph{the}, \emph{in}, \emph{of}, \emph{to} -- are therefore left out of most entries; the translation beneath the verse supplies them naturally.
+
+      Each gloss is chosen as the closest meaning of its word within the line, and it is usually drawn from the translation of the verse itself. Where the best word is too long for the format, the shortest synonym that still carries the meaning is used instead. The gloss points at each word as you sing it; the translation gives the whole sense.
+  - prose: |-
+      \section*{A little grammar for singing}
+
+      You do not need to study grammar to sing these songs -- but a little of it turns each word from a sound into a meaning you can carry with you. The gloss beneath every word gives its meaning; these few pages explain the small changes at the ends of words that show how the words fit together. This is not a course -- it is simply what you will meet again and again in these prayers.
+
+      \subsection*{What Sanskrit and Bengali share}
+
+      In both languages a word carries its meaning in the middle and its \emph{job} in the ending: the same word can mean ``Keśava,'' ``of Keśava,'' or ``to Keśava'' as its ending changes. The gloss tells you the meaning; the ending tells you how the word fits into the sentence -- who acts, what is acted upon, what belongs to what.
+
+      Because these are songs, the words do not always stand in English order; the endings are what hold the sentence together. This is why the glosses translate each word as it stands, while the translation beneath the verse gives the flowing sense. The two languages even share a few endings -- \sa{vane} is ``in the grove'' in both -- but each goes about its grammar in its own way, as the two short sections below show.
+
+      \subsection*{Sanskrit basics}
+
+      Sanskrit marks a noun's job with an ending. The table shows the endings of the most common kind of noun -- the kind that ends in \emph{a}, like \sa{kṛṣṇa}, \sa{keśava}, and \sa{nṛsiṁha}. Each example is a word as it appears in these songs:
+
+      {\small
+      \renewcommand{\arraystretch}{1.2}
+      \arrayrulecolor{glossgray}
+      \begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.9cm}@{\hspace{0.8em}}l@{\hspace{0.8em}}>{\raggedright\arraybackslash}p{4.6cm}@{}}
+      \textbf{The ending's job} & \textbf{Ending} & \textbf{Example} \\
+      \hline
+      the subject (who acts) & \sa{-aḥ} & \sa{nṛsiṁhaḥ} (Nṛsiṁha) \\
+      the object (acted upon) & \sa{-am} & \sa{nṛsiṁham} (Nṛsiṁha) \\
+      by, with & \sa{-ena} & \sa{nimeṣeṇa} (in a moment) \\
+      to, for & \sa{-āya} & \sa{narasiṁhāya} (to Narasiṁha) \\
+      from & \sa{-āt} & \sa{tṛṇād} (from a blade of straw) \\
+      of & \sa{-asya} & \sa{keśavasya} (of Keśava) \\
+      in, at, on & \sa{-e} & \sa{hṛdaye} (in the heart) \\
+      O ...! (addressing) & \sa{-a} & \sa{he kṛṣṇa} (O Kṛṣṇa) \\
+      \end{tabular}
+      }
+
+      Nouns of other kinds -- feminine words like \sa{kṛpā} (mercy), neuter words like \sa{vana} (grove), and names like \sa{hari} and \sa{guru} -- use endings that follow the same pattern with small changes: \sa{hare} (``O Hari!'') and \sa{guroḥ} (``of the guru''). The plural is rare in these prayers, and where it occurs the gloss makes it plain.
+
+      Verbs carry their own endings, which mark who acts and when: \sa{vijayate}, ``he conquers.'' You will also meet the ``may it be'' form, a word of blessing: \sa{astu}, ``may it be so.''
+
+      Sanskrit also joins words in two ways worth recognizing. In a \emph{compound}, several words are welded into one, and only the last takes an ending: \sa{karuṇā-sindho} is ``ocean of mercy'' (\sa{karuṇā}, mercy, + \sa{sindho}, ocean), and \sa{dīna-bandho} is ``friend of the distressed.'' In the gloss a trailing hyphen means the word continues on the next line: \sa{karuṇā-} \emph{mercy-}. Where two words meet, the final sound of the first often changes to suit the second; this joining is called \emph{sandhi}. Thus \sa{namo 'stu te}, ``I bow to You,'' is \sa{namas} + \sa{astu} + \sa{te}, and \sa{nṛsiṁhaḥ} softens to \sa{nṛsiṁho} before a gentle sound. Bengali has no such joining on the page -- its sound changes belong to the voice, not the writing (see Pronunciation, below).
+
+      \subsection*{Bengali basics}
+
+      Bengali keeps only a handful of endings, and they do most of the work:
+
+      {\small
+      \renewcommand{\arraystretch}{1.2}
+      \arrayrulecolor{glossgray}
+      \begin{tabular}{@{}l@{\hspace{0.8em}}>{\raggedright\arraybackslash}p{3.4cm}@{\hspace{0.8em}}>{\raggedright\arraybackslash}p{4.6cm}@{}}
+      \textbf{Ending} & \textbf{Its job} & \textbf{Examples} \\
+      \hline
+      \sa{-er} & of & \sa{gorācāṅder} (Gorācānd's), \sa{gaurāṅger} (Gaurāṅga's) \\
+      \sa{-e} & in, at, on & \sa{vane} (in the grove), \sa{siṁhāsane} (on the throne) \\
+      \sa{-i'} & having done & \sa{kari'} (doing), \sa{jini'} (conquering) \\
+      \end{tabular}
+      }
+
+      Bengali verbs carry tense and person in their endings, and the gloss gives the plain form: \sa{basiyāche} (``has sat''), \sa{karen} (``performs''), \sa{dhulāya} (``waves''). The apostrophe that appears in words like \sa{kari'} marks a letter that has dropped away. Other endings exist -- such as \sa{-ke}, ``to, for a person'' -- but they do not appear in these songs, so there is nothing more to learn for now.
+  - prose: |-
+      \section*{Transliteration}
+
+      The Sanskrit and Bengali in this book are written in the Roman alphabet with a few extra marks, using the standard system of the BBT publications, called IAST (the International Alphabet of Sanskrit Transliteration). The system is exact: each letter of the original script is always written by the same Roman letter, so the text can be read back precisely as written.
+
+      The transliteration in this book follows \emph{Sacred Song Symphony: 108 Songs \& Prayers}, compiled by Bhakti Gauravani Goswami, which adjusts the IAST system in two places for easier Bengali pronunciation; this book follows those adjustments. The first concerns the Bengali letters {\bengalifont ড়} and {\bengalifont ড}: in the BBT publications both are transliterated as \sa{ḍ}, although {\bengalifont ড়} is pronounced like an \emph{r} and {\bengalifont ড} like a \emph{d}. In \emph{Śrī Caitanya-caritāmṛta} and in many songbooks the two therefore cannot be told apart -- and so \sa{baḍa} has often been sung \emph{bada} instead of \emph{bara}. Here they are told apart, as in \emph{Sacred Song Symphony}: {\bengalifont ড়} is written \sa{r} and {\bengalifont ড} as \sa{ḍ}, so that \sa{baḍa} is written as it is pronounced, \emph{bara}, and \sa{chāḍiyā} as \emph{chāriyā}.
+
+      The second adjustment concerns the short \sa{a} of Bengali, which is kept in writing but pronounced as an open \emph{o} -- and hardly at all at the end of a word. The reader soon grows accustomed to this, and Bengali words are thus written as they are sung.
+
+      The diacritical marks are few: \sa{ā}, \sa{ī}, and \sa{ū} mark the long vowels; \sa{ṛ} a vowel-\emph{r}; \sa{ṁ} and \sa{ṅ} nasal sounds; \sa{ś} and \sa{ṣ} the two sibilants; \sa{ḥ} a final breath; and \sa{c} is always pronounced \emph{ch}.
+  - prose: |-
+      \section*{Pronunciation}
+
+      Sanskrit is pronounced as it is written: the long vowels are held twice as long as the short ones, and each consonant keeps a fixed sound. Bengali differs in a handful of sounds, and the songs marked with a raised \emph{B} are sung with Bengali pronunciation -- follow the Bengali column of the table for those, the Sanskrit column for all others. The sounds are few, and the table below is the only guide you will need; it follows the pronunciation guide of \emph{Sacred Song Symphony}.
+
+      \noindent{\small
+      \renewcommand{\arraystretch}{1.2}
+      \arrayrulecolor{glossgray}
+      \begin{tabular}{@{}l@{\hspace{1.2em}}>{\raggedright\arraybackslash}p{4.3cm}@{\hspace{1.2em}}>{\raggedright\arraybackslash}p{4.3cm}@{}}
+      \textbf{Letter} & \textbf{Sanskrit} & \textbf{Bengali} \\
+      \hline
+      \textbf{\sa{a}} & short, as in b\emph{u}t & open \emph{o}, as in wh\emph{a}t; mute at the end of a word \\
+      \textbf{\sa{ā}} & long, as in f\emph{a}r & the same \\
+      \textbf{\sa{e}} & as in t\emph{e}n & open \emph{e}, like the \emph{a} in b\emph{a}g \\
+      \textbf{\sa{i}} & short, as in f\emph{i}t & the same \\
+      \textbf{\sa{ī}} & long, as in f\emph{ee}t & the same \\
+      \textbf{\sa{u}} & short, as in p\emph{u}t & the same \\
+      \textbf{\sa{ū}} & long, as in r\emph{oo}t & the same \\
+      \textbf{\sa{o}} & as in p\emph{o}t & the same \\
+      \textbf{\sa{ai}} & as in Th\emph{ai}land & \emph{oi}, as in \emph{oi}l \\
+      \textbf{\sa{au}} & as in s\emph{ou}th & \emph{ou}, as in sh\emph{ou}lder \\
+      \hline
+      \textbf{\sa{c}} & \emph{ch}, as in \emph{ch}apter & the same \\
+      \textbf{\sa{j}} & \emph{dj}, as in Ar\emph{j}una & the same \\
+      \textbf{\sa{ṅ}} & nasal, as the \emph{ng} in so\emph{ng} & the same \\
+      \textbf{\sa{ṁ}} & nasal, as above & the same \\
+      \textbf{\sa{ṛ}} & \emph{ri}, as in r\emph{i}ng & the same \\
+      \textbf{\sa{ḥ}} & the preceding vowel is repeated: \emph{namaḥ} is \emph{namaha} & the same \\
+      \textbf{\sa{bh}, \sa{dh}, \sa{gh}, \sa{th}} & the \emph{h} is audible & the same \\
+      \textbf{\sa{ph}} & \emph{p} followed by an audible \emph{h} & \emph{f}, as in \emph{f}ather \\
+      \textbf{\sa{s}} & as in \emph{s}un & \emph{sh}, as in Kri\emph{sh}na \\
+      \textbf{\sa{ś}} & as in \emph{sh}ine & \emph{sh} \\
+      \textbf{\sa{ṣ}} & as in \emph{sh}awl & mute: not pronounced \\
+      \textbf{\sa{v}} & as in \emph{v}at & \emph{b} \\
+      \end{tabular}
+      }
+
+      When two words meet, one ending in a vowel and the next beginning with one, a \emph{y} sounds between them, so that \sa{sevā-adhikāra} is sung \emph{sevāyadhikāra}. The pronunciation guides of the BBT publications give the details for those who wish to go further.
