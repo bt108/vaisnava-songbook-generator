@@ -1,0 +1,231 @@
+title: Śrī Śrī Gurv-aṣṭaka
+author: Viśvanātha Cakravartī Ṭhākura
+language: sk
+fragments:
+  vandeguro:
+    - {word: vande, gloss: I praise}
+    - {word: guroḥ, gloss: of guru}
+    - {word: śrī-, gloss: the-radiant-}
+    - {word: caraṇāravindam, gloss: feet-lotus}
+slokas:
+  - number: 1
+    padas:
+      - entries:
+          - {word: saṁsāra-, gloss: transmigration-}
+          - {word: dāvānala-, gloss: forest-fire-}
+          - {word: līḍha-, gloss: afflicted-}
+          - {word: loka-, gloss: world-}
+          - {break: true}
+          - {word: trāṇāya, gloss: deliverance}
+          - {word: kāruṇya-, gloss: deep compassion-}
+          - {word: ghanāghanatvam, gloss: cloud-ness}
+      - entries:
+          - {word: prāptasya, gloss: obtained}
+          - {word: kalyāṇa-, gloss: illustrious-}
+          - {word: guṇārṇavasya, gloss: quality-ocean}
+          - {break: true}
+          - {fragment: vandeguro}
+    translation: |-
+      The spiritual master is receiving benediction from the ocean of mercy. Just as a cloud pours water on a forest fire to extinguish it, so the spiritual master delivers the materially afflicted world by extinguishing the blazing fire of material existence. I offer my respectful obeisances unto the lotus feet of such a spiritual master, who is an ocean of auspicious qualities.
+    footnotes:
+      - {term: saṁsāra, note: "fr. \\sa{sam} (together, constantly) + \\sa{sṛ} (to flow on); the soul's wandering from body to body"}
+      - {term: kāruṇya, note: "fr. \\sa{karuṇa} (compassionate); the lengthened \\sa{ā} and abstract suffix \\sa{ya} both intensify it"}
+      - {term: ghana-aghana, note: "\\sa{ghana} (solid, dense) + \\sa{a-ghana} (non-solid); that which is simultaneously solid and non-solid"}
+      - {term: śrī, note: "`to illuminate'; radiant, auspicious"}
+      - {term: caraṇa, note: "fr. \\sa{car} (to walk); ``that which one walks with.''"}
+      - {term: aravindam, note: "fr. \\sa{ara} (spokes) + \\sa{vinda} (possessed); radial symmetry."}
+  - number: 2
+    padas:
+      - entries:
+          - {word: mahāprabhoḥ, gloss: Mahāprabhu}
+          - {word: kīrtana-, gloss: chanting-}
+          - {word: nṛtya-, gloss: dancing-}
+          - {word: gīta-, gloss: singing-}
+          - {break: true}
+          - {word: vāditra-, gloss: instrument-}
+          - {word: mādyan-, gloss: gladdened-}
+          - {word: manaso, gloss: mind}
+          - {word: rasena, gloss: mellow}
+      - entries:
+          - {word: romāñca-, gloss: hair-curling-}
+          - {word: kampāśru-, gloss: trembling-tears-}
+          - {word: taraṅga-, gloss: waves-}
+          - {word: bhājo, gloss: relish}
+          - {break: true}
+          - {fragment: vandeguro}
+    translation: |-
+      Chanting the holy name, dancing in ecstasy, singing, and playing musical instruments, the spiritual master is always gladdened by the saṅkīrtana movement of Lord Caitanya Mahāprabhu. Because he is relishing the mellows of pure devotion within his mind, sometimes his hair stands on end, he feels quivering in his body, and tears flow from his eyes like waves. I offer my respectful obeisances unto the lotus feet of such a spiritual master.
+    footnotes:
+      - {term: bhāj, note: "perceiving from the state of being part and parcel of the perceived; fr. \\sa{bhaj} (`to partake of → enjoy')"}
+  - number: 3
+    padas:
+      - entries:
+          - {word: śrī-, gloss: Śrī-}
+          - {word: vigrahārādhana-, gloss: form-worship-}
+          - {word: nitya-, gloss: continuous-}
+          - {word: nānā-, gloss: various-}
+          - {break: true}
+          - {word: śṛṅgāra-, gloss: decoration-}
+          - {word: tan-, gloss: His-}
+          - {word: mandira-, gloss: temple-}
+          - {word: mārjanādau, gloss: cleaning-etc}
+      - entries:
+          - {word: yuktasya, gloss: engaged}
+          - {word: bhaktāṁś, gloss: devotees}
+          - {word: ca, gloss: and}
+          - {word: niyuñjato, gloss: engaging}
+          - {word: '''pi', gloss: also}
+          - {break: true}
+          - {fragment: vandeguro}
+    translation: |-
+      The spiritual master is always engaged in the temple worship of Śrī Śrī Rādhā and Kṛṣṇa. He also engages his disciples in such worship. They dress the Deities in beautiful clothes and ornaments, clean Their temple, and perform other similar worship of the Lord. I offer my respectful obeisances unto the lotus feet of such a spiritual master.
+    footnotes:
+      - {term: vi-graha, note: "fr. \\sa{vi} (apart) + \\sa{grah} (to seize); freed from the grasp of others — that which has its own borders, an independent, separate form;"}
+      - {term: ā-rādhana, note: "worship; the root \\sa{rādh} (to succeed, prosper) marks it as the means to success"}
+      - {term: nitya, note: "fr. \\sa{ni-ja} (`innate → eternal/continuous'), suggesting that which is inherently innate [e.g. the soul] to also therefore being everlasting"}
+      - {term: śṛṅgāra, note: "decoration fit for intimate, sweet contact"}
+      - {term: bhakta, note: "fr. \\sa{bhaj}; cf. FN. to \\sa{bhāj}; inherently deeply devoted"}
+      - {term: niyuñjato, note: "fr. \\sa{ni-yuj} (to attach someone to something)"}
+  - number: 4
+    padas:
+      - entries:
+          - {word: catur-, gloss: four-}
+          - {word: vidha-, gloss: kinds-}
+          - {word: śrī-, gloss: Śrī-}
+          - {word: bhagavat-, gloss: Lord-}
+          - {word: prasāda-, gloss: prasāda-}
+          - {break: true}
+          - {word: svādv-, gloss: sweet-}
+          - {word: anna-, gloss: food-}
+          - {word: tṛptān, gloss: satisfied}
+          - {word: hari-, gloss: Hari-}
+          - {word: bhakta-, gloss: devotee-}
+          - {word: saṅghān, gloss: multitudes}
+      - entries:
+          - {word: kṛtvaiva, gloss: having done-indeed}
+          - {word: tṛptiṁ, gloss: satisfaction}
+          - {word: bhajataḥ, gloss: partaking}
+          - {word: sadaiva, gloss: always-indeed}
+          - {break: true}
+          - {fragment: vandeguro}
+    translation: |-
+      The spiritual master is always offering Kṛṣṇa four kinds of delicious food [analyzed as that which is licked, chewed, drunk, and sucked]. When the spiritual master sees that the devotees are satisfied by eating bhagavat-prasāda, he is satisfied. I offer my respectful obeisances unto the lotus feet of such a spiritual master.
+    footnotes:
+      - {term: catur-vidha, note: "\\sa{bhaksyam} (chewed), roasted chick peas; \\sa{bhojyam} (not chewed), soup; \\sa{lehyam} (licked), raw sugar; \\sa{cosyam} (sucked, the pulp discarded), sugar-cane stick"}
+      - {term: prasāda, note: "fr. \\sa{pra-sad} (that which sits in front) → clearness, pureness, graciousness → free gift → remnants"}
+      - {term: svādv, note: "fr. \\sa{svad} (to taste); that which tastes well → sweet"}
+      - {term: hari, note: "fr. \\sa{hṛ} (to take away); he who removes sin and captivates the heart"}
+      - {term: saṅghān, note: null}
+  - number: 5
+    padas:
+      - entries:
+          - {word: śrī-, gloss: Śrī-}
+          - {word: rādhikā-, gloss: Rādhikā-}
+          - {word: mādhavayor, gloss: Mādhava}
+          - {word: apāra-, gloss: unlimited-}
+          - {break: true}
+          - {word: mādhurya-, gloss: sweet-}
+          - {word: līlā, gloss: pastime}
+          - {word: guṇa-, gloss: quality-}
+          - {word: rūpa-, gloss: form-}
+          - {word: nāmnām, gloss: names}
+      - entries:
+          - {word: prati-, gloss: every-}
+          - {word: kṣaṇāsvādana-, gloss: moment-relishing-}
+          - {word: lolupasya, gloss: eager}
+          - {break: true}
+          - {fragment: vandeguro}
+    translation: |-
+      The spiritual master is always eager to hear and chant about the unlimited conjugal pastimes of Rādhikā and Mādhava, and Their qualities, names, and forms. The spiritual master aspires to relish these at every moment. I offer my respectful obeisances unto the lotus feet of such a spiritual master.
+    footnotes:
+      - {term: Rādhikā, note: "Endearing version of Rādhā, mng. `prosperity/success'"}
+      - {term: Mādhavayor, note: null}
+      - {term: apāra, note: "fr. \\sa{a} (without) + \\sa{pāra} (far shore); a sea whose far shore is never reached — boundless."}
+      - {term: mādhurya, note: "fr. \\sa{madhu} (honey); sweetness arrived at through honey — `honeyed.'"}
+      - {term: guṇa, note: "lit. `thread, strand, bow-string' → `quality'; a quality as a strand woven into a being."}
+      - {term: lolupa, note: "fr. \\sa{lubh} (to covet, desire); eager, greedy."}
+  - number: 6
+    padas:
+      - entries:
+          - {word: nikuñja-, gloss: grove-}
+          - {word: yūno, gloss: youthful one}
+          - {word: rati-, gloss: love-}
+          - {word: keli-, gloss: play-}
+          - {word: siddhyai, gloss: perfection}
+          - {break: true}
+          - {word: yā, gloss: whatever}
+          - {word: yālibhir, gloss: whatever-friends}
+          - {word: yuktir, gloss: arrangement}
+          - {word: apekṣaṇīyā, gloss: desirable}
+      - entries:
+          - {word: tatrāti-, gloss: there-very-}
+          - {word: dākṣyād, gloss: expertise}
+          - {word: ati-, gloss: very-}
+          - {word: vallabhasya, gloss: dear}
+          - {break: true}
+          - {fragment: vandeguro}
+    translation: |-
+      The spiritual master is very dear, because he is expert in assisting the gopīs, who at different times make different tasteful arrangements for the perfection of Rādhā and Kṛṣṇa's conjugal loving affairs within the groves of Vṛndāvana. I offer my most humble obeisances unto the lotus feet of such a spiritual master.
+    footnotes:
+      - {term: nikuñja, note: "fr. \\sa{ni} (in, within) + \\sa{kuñja} (bower, thicket); a secluded grove."}
+      - {term: rati, note: "fr. \\sa{ram} (to delight in); delight → love, amorous attachment."}
+      - {term: siddhyai, note: "fr. \\sa{sidh} (to be accomplished) → success, perfection."}
+      - {term: yukti, note: "fr. \\sa{yuj} (to yoke/join) — the same root as \\sa{yoga}; arrangement, stratagem."}
+      - {term: dākṣyād, note: "fr. \\sa{dakṣa} (expert, clever, able)."}
+  - number: 7
+    padas:
+      - entries:
+          - {word: sākṣād-, gloss: directly-}
+          - {word: dharitvena, gloss: Hari-ness}
+          - {word: samasta-, gloss: all-}
+          - {word: śāstrair, gloss: scriptures}
+          - {break: true}
+          - {word: uktas, gloss: acknowledged}
+          - {word: tathā, gloss: thus}
+          - {word: bhāvyata, gloss: considered}
+          - {word: eva, gloss: indeed}
+          - {word: sadbhiḥ, gloss: saintly ones}
+      - entries:
+          - {word: kintu, gloss: however}
+          - {word: prabhor, gloss: Lord}
+          - {word: yaḥ, gloss: who}
+          - {word: priya, gloss: dear}
+          - {word: eva, gloss: indeed}
+          - {word: tasya, gloss: his}
+          - {break: true}
+          - {fragment: vandeguro}
+    translation: |-
+      The spiritual master is to be honored as much as the Supreme Lord, because he is the most confidential servitor of the Lord. This is acknowledged in all revealed scriptures and followed by all authorities. Therefore I offer my respectful obeisances unto the lotus feet of such a spiritual master, who is a bona fide representative of Śrī Hari [Kṛṣṇa].
+    footnotes:
+      - {term: sākṣāt, note: "fr. \\sa{sa} (with) + \\sa{akṣa} (eye); `before one's own eyes' → directly, evidently."}
+      - {term: śāstrair, note: "fr. \\sa{śās} (to teach, rule, correct); śāstra, `that which instructs and rectifies.'"}
+      - {term: sadbhiḥ, note: "fr. \\sa{sat} (the present participle of \\sa{as}, `to be'); `the real ones' → the good, the saintly."}
+      - {term: prabhoḥ, note: "fr. \\sa{pra-bhū} (to excel, be superior) → the Lord, the Master."}
+      - {term: priya, note: "fr. \\sa{prī} (to please); `pleasing, dear, beloved.'"}
+  - number: 8
+    padas:
+      - entries:
+          - {word: yasya, gloss: whose}
+          - {word: prasādād, gloss: prasāda}
+          - {word: bhagavat-, gloss: Lord-}
+          - {word: prasādo, gloss: prasāda}
+          - {break: true}
+          - {word: yasyāprasādān, gloss: whose-disfavor}
+          - {word: na, gloss: not}
+          - {word: gatiḥ, gloss: way}
+          - {word: kuto, gloss: where}
+          - {word: '''pi', gloss: also}
+      - entries:
+          - {word: dhyāyan, gloss: meditating}
+          - {word: stuvaṁs, gloss: praising}
+          - {word: tasya, gloss: his}
+          - {word: yaśas, gloss: glory}
+          - {word: tri-, gloss: three-}
+          - {word: sandhyaṁ, gloss: junction}
+          - {break: true}
+          - {fragment: vandeguro}
+    translation: |-
+      By the mercy of the spiritual master one receives the benediction of Kṛṣṇa. Without the grace of the spiritual master, one cannot make any advancement. Therefore, I should always remember and praise the spiritual master. At least three times a day I should offer my respectful obeisances unto the lotus feet of my spiritual master.
+    footnotes:
+      - {term: gatiḥ, note: "fr. \\sa{gam} (to go); `way, course, progress.'"}
+      - {term: yaśas, note: "glory, fame; fr. \\sa{yaś} (to be renowned)."}

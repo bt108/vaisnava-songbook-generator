@@ -1,0 +1,176 @@
+title: Kevalāṣṭaka
+author: Nīlakaṇṭha Gosvāmī
+language: sk
+fragments:
+  harername:
+    - {word: harer, gloss: of Hari}
+    - {word: nāmaiva, gloss: name-only}
+    - {word: kevalam, gloss: alone}
+slokas:
+  - number: 1
+    clearPage: true
+    padas:
+      - entries:
+          - {word: madhuraṁ, gloss: sweet}
+          - {word: madhurebhyo, gloss: than sweet}
+          - {word: "'pi", gloss: also}
+      - entries:
+          - {word: maṅgalebhyo, gloss: than auspicious}
+          - {word: "'pi", gloss: also}
+          - {word: maṅgalam, gloss: auspicious}
+      - entries:
+          - {word: pāvanaṁ, gloss: purifier}
+          - {word: pāvanebhyo, gloss: than purifiers}
+          - {word: "'pi", gloss: also}
+      - entries:
+          - {fragment: harername}
+    translation: |-
+      More sweet than all other sweet things; more auspicious than all other auspicious things; the greatest purifier of all purifying things. The holy name of Śrī Hari alone is everything.
+    footnotes: []
+  - number: 2
+    padas:
+      - entries:
+          - {word: ābrahmā-, gloss: from Brahmā-}
+          - {word: stamba-, gloss: clump-}
+          - {word: paryantaṁ, gloss: ending}
+      - entries:
+          - {word: sarvaṁ, gloss: all}
+          - {word: māyā-, gloss: māyā-}
+          - {word: mayaṁ, gloss: made of}
+          - {word: jagat, gloss: world}
+      - entries:
+          - {word: satyaṁ, gloss: truth}
+          - {word: satyaṁ, gloss: truth}
+          - {word: punaḥ, gloss: again}
+          - {word: satyaṁ, gloss: truth}
+      - entries:
+          - {fragment: harername}
+    translation: |-
+      The entire universe, from exalted Brahma down to the lowly clump of grass, is a product of the illusory energy of the supreme Lord. The only thing that is reality, reality, again I say reality. The holy name of Śrī Hari alone is everything.
+    footnotes: []
+  - number: 3
+    padas:
+      - entries:
+          - {word: sa, gloss: he}
+          - {word: guruḥ, gloss: guru}
+          - {word: sa, gloss: he}
+          - {word: pitā, gloss: father}
+          - {word: cāpi, gloss: and also}
+      - entries:
+          - {word: sā, gloss: she}
+          - {word: mātā, gloss: mother}
+          - {word: bandhavo, gloss: relatives}
+          - {word: "'pi", gloss: also}
+          - {word: saḥ, gloss: he}
+      - entries:
+          - {word: śikṣayec, gloss: should teach}
+          - {word: cet, gloss: if}
+          - {word: sadā, gloss: always}
+          - {word: smartuṁ, gloss: to remember}
+      - entries:
+          - {fragment: harername}
+    translation: |-
+      That person is a true preceptor, or a true father, a true mother, and a true friend also only if they teach one to always remember. The holy name of Śrī Hari alone is everything.
+    footnotes: []
+  - number: 4
+    padas:
+      - entries:
+          - {word: niḥśvāse, gloss: in breath}
+          - {word: nāhi, gloss: not}
+          - {word: viśvāsaḥ, gloss: faith}
+      - entries:
+          - {word: kadā, gloss: when}
+          - {word: ruddho, gloss: stopped}
+          - {word: bhaviṣyati, gloss: will be}
+      - entries:
+          - {word: kīrtanīya, gloss: to be chanted}
+          - {word: mato, gloss: deemed}
+          - {word: bālyād, gloss: childhood}
+      - entries:
+          - {fragment: harername}
+    translation: |-
+      There is no certainty when the last breath will come and put an abrupt halt to all one's material plans; therefore, it is wise to always practice chanting from very childhood. The holy name of Śrī Hari alone is everything.
+    footnotes: []
+  - number: 5
+    clearPage: true
+    padas:
+      - entries:
+          - {word: hariḥ, gloss: Hari}
+          - {word: sadā, gloss: always}
+          - {word: vaset, gloss: dwells}
+          - {word: tatra, gloss: there}
+      - entries:
+          - {word: yatra, gloss: where}
+          - {word: bhāgavatā, gloss: devotees}
+          - {word: janāḥ, gloss: people}
+      - entries:
+          - {word: gāyanti, gloss: sing}
+          - {word: bhakti-, gloss: devotion-}
+          - {word: bhāvena, gloss: mood}
+      - entries:
+          - {fragment: harername}
+    translation: |-
+      Lord Hari eternally dwells in that place where truly exalted, spiritually advanced souls sing in the mood of pure devotion. The holy name of Śrī Hari alone is everything.
+    footnotes: []
+  - number: 6
+    padas:
+      - entries:
+          - {word: aho, gloss: alas}
+          - {word: duḥkhaṁ, gloss: sorrow}
+          - {word: maho, gloss: great}
+          - {word: duḥkhaṁ, gloss: sorrow}
+      - entries:
+          - {word: duḥkhād, gloss: than sorrow}
+          - {word: duḥkhataraṁ, gloss: more sorrowful}
+          - {word: yataḥ, gloss: because}
+      - entries:
+          - {word: kācārthaṁ, gloss: as glass}
+          - {word: vismṛtam, gloss: forgotten}
+          - {word: ratnaṁ, gloss: jewel}
+      - entries:
+          - {fragment: harername}
+    translation: |-
+      Aho! What a sorrow, what a great sorrow! More painful than any other misery in the world! Mistaking it as a mere piece of glass, the people have forgotten this jewel. The holy name of Śrī Hari alone is everything.
+    footnotes: []
+  - number: 7
+    clearPage: true
+    padas:
+      - entries:
+          - {word: dīyatāṁ, gloss: given}
+          - {word: dīyatāṁ, gloss: given}
+          - {word: karṇo, gloss: ear}
+      - entries:
+          - {word: nīyatāṁ, gloss: uttered}
+          - {word: nīyatāṁ, gloss: uttered}
+          - {word: vacaḥ, gloss: speech}
+      - entries:
+          - {word: gīyatāṁ, gloss: sung}
+          - {word: gīyatāṁ, gloss: sung}
+          - {word: nityaṁ, gloss: always}
+      - entries:
+          - {fragment: harername}
+    translation: |-
+      It should be heard again and again with one's ears; It should be uttered over and over with one's voice; It should be perpetually sung and sung anew. The holy name of Śrī Hari alone is everything.
+    footnotes: []
+  - number: 8
+    padas:
+      - entries:
+          - {word: tṛṇī-, gloss: grass-}
+          - {word: kṛtya, gloss: making}
+          - {word: jagat, gloss: world}
+          - {word: sarvaṁ, gloss: all}
+      - entries:
+          - {word: rājate, gloss: shines}
+          - {word: sakalopari, gloss: above all}
+      - entries:
+          - {word: cid-, gloss: conscious-}
+          - {word: ānanda-, gloss: bliss-}
+          - {word: mayaṁ, gloss: made of}
+          - {word: śuddhaṁ, gloss: pure}
+      - entries:
+          - {word: harer-, gloss: of Hari-}
+          - {word: nāmaiva, gloss: name-only}
+          - {word: kevalam, gloss: alone}
+    translation: |-
+      It makes the entire universe seem insignificant as a blade of grass; it reigns supreme over all in a splendorous manner; it is full of eternally conscious divine ecstasy; it is supremely pure. The holy name of Śrī Hari alone is everything.
+    footnotes: []

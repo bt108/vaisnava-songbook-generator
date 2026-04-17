@@ -1,0 +1,23 @@
+title: Śrī Guru praṇāma
+author: unknown
+language: sk
+slokas:
+  - number: 1
+    padas:
+      - entries:
+          - {word: om, gloss: om}
+          - {word: ajñāna-, gloss: ignorance-}
+          - {word: timirāndhasya, gloss: darkness-blinded}
+          - {word: jñānāñjana-, gloss: knowledge-ointment-}
+          - {word: śalākayā, gloss: torch}
+      - entries:
+          - {word: cakṣur, gloss: eye}
+          - {word: unmīlitaṁ, gloss: opened}
+          - {word: yena, gloss: by whom}
+          - {word: tasmai, gloss: to him}
+          - {word: śrī-, gloss: Śrī-}
+          - {word: gurave-, gloss: guru-}
+          - {word: namaḥ, gloss: I bow}
+    translation: |-
+      I offer my respectful obeisances unto my spiritual master, who has opened my eyes, blinded by the darkness of ignorance, with the torchlight of knowledge.
+    footnotes: []

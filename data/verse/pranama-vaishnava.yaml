@@ -1,0 +1,26 @@
+title: Śrī Vaiṣṇava-praṇāma
+author: unknown
+language: sk
+slokas:
+  - number: 1
+    padas:
+      - entries:
+          - {word: vāñchā-, gloss: desire-}
+          - {word: kalpa-, gloss: wish fulfilling-}
+          - {word: tarubhyaś, gloss: trees}
+          - {word: ca, gloss: and}
+          - {break: true}
+          - {word: kṛpā-, gloss: mercy-}
+          - {word: sindhubhya, gloss: oceans}
+          - {word: eva, gloss: certainly}
+          - {word: ca, gloss: and}
+      - entries:
+          - {word: patitānāṁ, gloss: fallen}
+          - {word: pāvanebhyo, gloss: purifiers}
+          - {break: true}
+          - {word: vaiṣṇavebhyo, gloss: Vaiṣṇavas}
+          - {word: namo, gloss: I bow}
+          - {word: namaḥ, gloss: I bow}
+    translation: |-
+      I offer my respectful obeisances unto all the Vaiṣṇava devotees of the Lord Who are just like desire trees who can fulfill the desires of everyone. They are full of compassion and can deliver all the fallen souls.
+    footnotes: []

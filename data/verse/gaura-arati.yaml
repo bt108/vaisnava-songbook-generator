@@ -1,0 +1,154 @@
+title: Gaura-ārati
+author: Bhaktivinoda Ṭhākura
+language: bn
+slokas:
+  - number: 1
+    padas:
+      - entries:
+          - {word: (kiba), gloss: oh how}
+          - {word: jaya, gloss: glory}
+          - {word: jaya, gloss: glory}
+          - {word: gorācāṅder, gloss: Gorācānd's}
+          - {word: āratika, gloss: ārati's}
+          - {word: śobhā, gloss: splendor}
+      - entries:
+          - {word: jāhnavī-, gloss: Jāhnavī-}
+          - {word: taṭa-, gloss: bank-}
+          - {word: vane, gloss: in the grove}
+          - {word: jaga-, gloss: world-}
+          - {word: mana-, gloss: mind-}
+          - {word: lobhā, gloss: greed}
+    translation: |-
+      All glories, all glories to the beautiful ārati ceremony of Lord Caitanya. This Gaura-ārati is taking place in a grove on the banks of the Jāhnavī [Ganges] and is attracting the minds of all living entities in the universe.
+    footnotes: []
+  - number: First Refrain
+    padas:
+      - entries:
+          - {word: gaurāṅger, gloss: Gaurāṅga's}
+          - {word: ārotik, gloss: ārati's}
+          - {word: śobhā, gloss: splendor}
+          - {break: true}
+          - {word: jaga-, gloss: world-}
+          - {word: jana-, gloss: people-}
+          - {word: mana-, gloss: mind-}
+          - {word: lobhā, gloss: greed}
+    footnotes: []
+  - number: 2
+    padas:
+      - entries:
+          - {word: dakhiṇe, gloss: on the right}
+          - {word: 'nitāicāṅda,', gloss: Nitāicāṅda}
+          - {word: bāme, gloss: on the left}
+          - {word: gadādhara, gloss: Gadādhara}
+      - entries:
+          - {word: nikaṭe, gloss: nearby}
+          - {word: 'advaita,', gloss: Advaita}
+          - {word: śrīnivāsa, gloss: Śrīnivāsa}
+          - {word: chatra-, gloss: umbrella-}
+          - {word: dhara, gloss: holder}
+    translation: |-
+      On Lord Caitanya's right side is Lord Nityānanda, and on His left is Śrī Gadādhara. Nearby stands Śrī Advaita, and Śrīvāsa Ṭhākura is holding an umbrella over Lord Caitanya's head.
+    footnotes: []
+  - number: 3
+    padas:
+      - entries:
+          - {word: basiyāche, gloss: has sat}
+          - {word: gorācāṅd, gloss: Gorācānd}
+          - {word: ratna-, gloss: jewel-}
+          - {word: siṁhāsane, gloss: on the throne}
+      - entries:
+          - {word: ārati, gloss: ārati}
+          - {word: karen, gloss: performs}
+          - {word: brahmā-, gloss: Brahmā-}
+          - {word: ādi, gloss: and others}
+          - {word: deva-, gloss: god-}
+          - {word: gaṇe, gloss: host}
+    translation: |-
+      Lord Caitanya has sat down on a jeweled throne, and the demigods, headed by Lord Brahmā, perform the ārati ceremony.
+    footnotes: []
+  - number: 4
+    clearPage: true
+    padas:
+      - entries:
+          - {word: narahari-, gloss: Narahari-}
+          - {word: ādi, gloss: and others}
+          - {word: kari’, gloss: doing}
+          - {word: cāmara, gloss: cāmara}
+          - {word: dhulāya, gloss: waves}
+      - entries:
+          - {word: sañjaya-, gloss: Sañjaya-}
+          - {word: mukunda-, gloss: Mukunda-}
+          - {word: bāsu-, gloss: Bāsu-}
+          - {word: ghoṣa-, gloss: Ghoṣ-}
+          - {word: ādi, gloss: and others}
+          - {word: gāya, gloss: sing}
+    translation: |-
+      Narahari Sarakāra and other associates of Lord Caitanya fan Him with cāmaras, and devotees headed by Sañjaya Paṇḍita, Mukunda Datta, and Vāsu Ghoṣa sing sweet kīrtana.
+    footnotes: []
+  - number: 5
+    padas:
+      - entries:
+          - {word: śaṅkha, gloss: conch}
+          - {word: bāje, gloss: resounds}
+          - {word: ghaṇṭā, gloss: bell}
+          - {word: bāje, gloss: resounds}
+          - {word: bāje, gloss: resounds}
+          - {word: karatāla, gloss: karatāla}
+      - entries:
+          - {word: madhura, gloss: sweet}
+          - {word: mṛdaṅga, gloss: mṛdaṅga}
+          - {word: bāje, gloss: resounds}
+          - {word: parama, gloss: supreme}
+          - {word: rasāla, gloss: relishable}
+    translation: |-
+      Conchshells, bells, and karatālas resound, and the mṛdaṅgas play very sweetly. This kīrtana music is supremely sweet and relishable to hear.
+    footnotes: []
+  - number: Second Refrain
+    padas:
+      - entries:
+          - {word: śaṅkha, gloss: conch}
+          - {word: bāje, gloss: resounds}
+          - {word: ghaṇṭā, gloss: bell}
+          - {word: bāje, gloss: resounds}
+          - {break: true}
+          - {word: madhur, gloss: sweet}
+          - {word: madhur, gloss: sweet}
+          - {word: madhur, gloss: sweet}
+          - {word: bāje, gloss: resounds}
+    footnotes: []
+  - number: 6
+    padas:
+      - entries:
+          - {word: bahu-, gloss: many-}
+          - {word: koṭi, gloss: crore}
+          - {word: candra, gloss: moon}
+          - {word: jini’, gloss: conquering}
+          - {word: vadana, gloss: face}
+          - {word: ujjvala, gloss: brilliant}
+      - entries:
+          - {word: gala-, gloss: neck-}
+          - {word: deśe, gloss: in the region}
+          - {word: vana-, gloss: forest-}
+          - {word: mālā, gloss: garland}
+          - {word: kare, gloss: does}
+          - {word: jhalamala, gloss: glittering}
+    translation: |-
+      The brilliance of Lord Caitanya's face conquers millions upon millions of moons, and the garland of forest flowers around His neck shines.
+    footnotes: []
+  - number: 7
+    padas:
+      - entries:
+          - {word: śiva-, gloss: Śiva-}
+          - {word: śuka-, gloss: Śuka-}
+          - {word: nārada, gloss: Nārada}
+          - {word: preme, gloss: in love}
+          - {word: gada-, gloss: choked-}
+          - {word: gada, gloss: choked}
+      - entries:
+          - {word: bhakativinoda, gloss: Bhakativinoda}
+          - {word: dekhe, gloss: sees}
+          - {word: gorāra, gloss: Gorā's}
+          - {word: sampada, gloss: treasure}
+    translation: |-
+      Lord Śiva, Śukadeva Gosvāmī, and Nārada Muni are all there, and their voices are choked with the ecstasy of transcendental love. Thus Ṭhākura Bhaktivinoda envisions the glory of Lord Śrī Caitanya.
+    footnotes: []

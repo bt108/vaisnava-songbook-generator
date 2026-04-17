@@ -1,0 +1,24 @@
+title: Mahā-prasāde Govinde
+author: Mahābhārata
+language: sk
+slokas:
+  - number: 1
+    padas:
+      - entries:
+          - {word: mahā-, gloss: great-}
+          - {word: prasāde, gloss: prasāda}
+          - {word: govinde, gloss: Govinda}
+          - {word: nāma-, gloss: name-}
+          - {word: brahmaṇi, gloss: Brahman}
+          - {word: vaiṣṇave, gloss: Vaiṣṇava}
+      - entries:
+          - {word: svalpa-, gloss: little-}
+          - {word: puṇya-, gloss: piety-}
+          - {word: vatāṁ, gloss: possessing}
+          - {word: rājan, gloss: O King}
+          - {word: viśvāso, gloss: faith}
+          - {word: naiva, gloss: never}
+          - {word: jāyate, gloss: arises}
+    translation: |-
+      O king, for those with little pious credit, faith in mahā-prasāda, Śrī Govinda, the holy name, and the Vaiṣṇavas never arises. [Mahābhārata]
+    footnotes: []
