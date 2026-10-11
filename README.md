@@ -1,9 +1,46 @@
 # Songbook
 
+[![Go 1.25](https://img.shields.io/badge/Go-1.25-blue?logo=go)](https://go.dev)
+[![tests passing](https://img.shields.io/badge/tests-passing-brightgreen)](https://github.com)
+[![license MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![built with LuaLaTeX](https://img.shields.io/badge/built%20with-LuaLaTeX-orange)](https://www.luatex.org)
+
 A Vaiṣṇava prayer-songbook PDF generator. A Go binary reads YAML content
 files, renders them through Go templates into LaTeX, and compiles the
 result with LuaLaTeX into a print-ready PDF — including a saddle-stitched
 A5 booklet imposition.
+
+## 30-second example
+
+Each song is a YAML verse of word-by-word entries (`data/verse/*.yaml`):
+
+```yaml
+title: Gaura-ārati
+author: Bhaktivinoda Ṭhākura
+language: bn
+slokas:
+  - number: 1
+    padas:
+      - entries:
+          - {word: (kiba), gloss: oh how}
+          - {word: jaya, gloss: glory}
+          - {word: gorācāṅder, gloss: Gorācānd's}
+          - {word: āratika, gloss: ārati's}
+          - {word: śobhā, gloss: splendor}
+    translation: |-
+      All glories, all glories to the beautiful ārati ceremony of Lord Caitanya.
+```
+
+```sh
+make generate   # YAML → LaTeX in out/book.tex + out/chapters/*.tex
+make            # …then LuaLaTeX (twice) → out/book.pdf
+```
+
+## Sample output
+
+| Title page | Introduction | Verse with word-by-word gloss |
+|---|---|---|
+| ![Title page](docs/img/preview-01.png) | ![Introduction](docs/img/preview-02.png) | ![Glossed verse](docs/img/preview-03.png) |
 
 ## Prerequisites
 
@@ -21,6 +58,9 @@ make generate       # YAML → LaTeX only (go run ./cmd/songbook)
 make out/book.pdf   # LaTeX → PDF only (generate runs first as a make dependency)
 make booklet        # impose out/book.pdf into an A5 saddle-stitched booklet (A4 landscape sheets)
 make clean          # rm -rf out/
+make test           # go test ./...
+make lint           # gofmt check + go vet
+make fmt            # gofmt -w .
 ```
 
 Tests: `go test ./internal/generator/ -v`
