@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  go:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: gofmt check (fail on diff)
+        run: test -z "$(gofmt -l .)"
+
+      - name: go vet
+        run: go vet ./...
+
+      - name: go test
+        run: go test ./...
+
+      - name: yamlfmt check (non-blocking if missing)
+        run: |
+          if command -v yamlfmt >/dev/null 2>&1; then
+            yamlfmt -lint .
+          else
+            echo "yamlfmt not installed, skipping"
+          fi
+
+  latex:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Build PDF with LuaLaTeX (skip gracefully if absent)
+        run: |
+          if command -v lualatex >/dev/null 2>&1; then
+            make out/book.pdf
+          else
+            echo "lualatex not installed, skipping PDF build"
+          fi
