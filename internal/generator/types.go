@@ -8,12 +8,12 @@ import (
 )
 
 type Book struct {
-	Title     BookTitle          `yaml:"title"`
-	Copyright string             `yaml:"copyright"`
-	Dedication string            `yaml:"dedication"`
-	Intro     string             `yaml:"intro"`
-	Chapters  []ChapterReference `yaml:"chapters"`
-	Fragments map[string][]Entry `yaml:"fragments"`
+	Title      BookTitle          `yaml:"title"`
+	Copyright  string             `yaml:"copyright"`
+	Dedication string             `yaml:"dedication"`
+	Intro      string             `yaml:"intro"`
+	Chapters   []ChapterReference `yaml:"chapters"`
+	Fragments  map[string][]Entry `yaml:"fragments"`
 }
 
 type BookTitle struct {
@@ -42,8 +42,8 @@ func (chapter ChapterReference) IsEnabled() bool {
 }
 
 type Chapter struct {
-	Title   string
-	Intro   string
+	Title string
+	Intro string
 	// Prose holds the free-form LaTeX body blocks of a prose (non-song)
 	// chapter, in content order. They render between the intro and any
 	// verses; a chapter is either prose-only or song-based.

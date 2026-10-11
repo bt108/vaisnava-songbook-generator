@@ -1,4 +1,4 @@
-.PHONY: all generate booklet clean
+.PHONY: all generate booklet clean test lint fmt
 
 TEXINPUTS := .:../sty/:
 
@@ -18,3 +18,13 @@ out/booklet.pdf: out/book.pdf post-processing/booklet.tex
 
 clean:
 	rm -rf out/
+
+test:
+	go test ./...
+
+lint:
+	test -z "$$(gofmt -l .)"
+	go vet ./...
+
+fmt:
+	gofmt -w .
