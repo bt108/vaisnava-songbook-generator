@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/taraka/song-book/internal/generator"
+	"github.com/bt108/vaisnava-songbook-generator/internal/generator"
 )
 
 func main() {

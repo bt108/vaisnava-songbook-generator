@@ -1,4 +1,4 @@
-module github.com/taraka/song-book
+module github.com/bt108/vaisnava-songbook-generator
 
 go 1.25.0
 

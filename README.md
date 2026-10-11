@@ -1,7 +1,7 @@
-# Songbook
+# Vaisnava Songbook Generator
 
 [![Go 1.25](https://img.shields.io/badge/Go-1.25-blue?logo=go)](https://go.dev)
-[![tests passing](https://img.shields.io/badge/tests-passing-brightgreen)](https://github.com)
+[![CI](https://github.com/bt108/vaisnava-songbook-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/bt108/vaisnava-songbook-generator/actions/workflows/ci.yml)
 [![license MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![built with LuaLaTeX](https://img.shields.io/badge/built%20with-LuaLaTeX-orange)](https://www.luatex.org)
 
